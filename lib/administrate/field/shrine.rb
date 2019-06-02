@@ -16,7 +16,7 @@ module Administrate
       end
 
       def cached_value
-        resource.send("cached_#{attribute}_data")
+        resource.send("cached_#{attribute}")
       end
     end
   end
